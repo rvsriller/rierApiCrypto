@@ -4,7 +4,8 @@ let apiKey = { key: 'Add your personal key here' };
 
 //GET | fetch Requisition using promises
 fetch(
-  
+  'https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=' +
+    apiKey.key
 )
   .then((response) => {
     
@@ -13,8 +14,13 @@ fetch(
   //Response | return json object
   .then((api) => {
 
+    let info = "";
     
   })
+
+  //Error | return error
+  .catch((error) => {
+  });
 
 
 
