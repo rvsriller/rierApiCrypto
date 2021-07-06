@@ -10,6 +10,7 @@ fetch(
   .then((response) => {
     if (!response.ok)
       throw new Error('Unsuccessful requisition, status ' + response.status);
+    return response.json();
   })
 
   //Response | return json object
