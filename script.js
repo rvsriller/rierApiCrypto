@@ -10,6 +10,12 @@ fetch(
     
   })
 
+  //Response | return json object
+  .then((api) => {
+
+    
+  })
+
 
 
 
