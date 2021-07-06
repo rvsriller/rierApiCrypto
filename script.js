@@ -8,7 +8,8 @@ fetch(
     apiKey.key
 )
   .then((response) => {
-    
+    if (!response.ok)
+      throw new Error('Unsuccessful requisition, status ' + response.status);
   })
 
   //Response | return json object
