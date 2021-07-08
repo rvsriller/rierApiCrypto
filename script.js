@@ -27,7 +27,8 @@ fetch(
         <div class="media">
           
 
-          
+          <div class="media-body">
+          </div>
         </div>
       `;
 
