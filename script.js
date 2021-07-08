@@ -23,7 +23,13 @@ fetch(
       
 
       //Show API info
-     
+      info = info + `
+        <div class="media">
+          
+
+          
+        </div>
+      `;
 
       
 
