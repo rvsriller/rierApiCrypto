@@ -19,7 +19,15 @@ fetch(
     let info = "";
     
     // Get 10 coins and symbols
-    
+    for(let i = 0; i < 10 ; i++){
+      
+
+      //Show API info
+     
+
+      
+
+    }
   })
 
   //Error | return error
