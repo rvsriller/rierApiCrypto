@@ -28,6 +28,7 @@ fetch(
           <img 
             src="coin.jpg" 
             class="align-self-center mr-3" 
+            height="60" 
           />
 
           <div class="media-body">
