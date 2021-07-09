@@ -35,6 +35,7 @@ fetch(
         </div>
       `;
 
+      document.getElementById("coins").innerHTML = texto;
       
 
     }
