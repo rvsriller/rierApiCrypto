@@ -26,6 +26,7 @@ fetch(
       info = info + `
         <div class="media">
           <img 
+            src="coin.jpg" 
           />
 
           <div class="media-body">
