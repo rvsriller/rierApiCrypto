@@ -42,6 +42,7 @@ fetch(
 
   //Error | return error
   .catch((error) => {
+    console.error(error.message);
   });
 
 
