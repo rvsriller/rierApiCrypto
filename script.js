@@ -25,7 +25,8 @@ fetch(
       //Show API info
       info = info + `
         <div class="media">
-          
+          <img 
+          />
 
           <div class="media-body">
             <h5 class="mt-2">${api.data[i].name}</h5>
