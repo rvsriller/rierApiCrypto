@@ -29,6 +29,7 @@ fetch(
             src="coin.jpg" 
             class="align-self-center mr-3" 
             alt="coin" 
+            width="100" 
             height="60" 
           />
 
