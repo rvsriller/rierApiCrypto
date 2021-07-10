@@ -50,6 +50,7 @@ fetch(
 
   //Error | return error
   .catch((error) => {
+    //error message
     console.error(error.message);
   });
 
