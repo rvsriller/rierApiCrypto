@@ -13,7 +13,7 @@ fetch(
     return response.json();
   })
 
-
+  
   //Response | return json object
   .then((api) => {
 
@@ -42,6 +42,7 @@ fetch(
         </div>
       `;
 
+      //Add to html page
       document.getElementById("coins").innerHTML = texto;
       
     }
