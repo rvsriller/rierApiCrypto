@@ -13,7 +13,7 @@ fetch(
     return response.json();
   })
 
-  
+
   //Response | return json object
   .then((api) => {
 
@@ -44,7 +44,6 @@ fetch(
 
       document.getElementById("coins").innerHTML = texto;
       
-
     }
   })
 
